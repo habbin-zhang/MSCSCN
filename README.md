@@ -13,3 +13,6 @@ munkres
 Pillow
 pyyaml
 ```
+```
+pip install -r requirements.txt
+```
