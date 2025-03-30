@@ -3,7 +3,8 @@ This is the code of the paper "Multi-Level Structural Contrastive Subspace Clust
 # Requirements
 To run this project, ensure you have the following dependencies installed:
 
-```torch
+```
+torch
 numpy
 scipy
 matplotlib
