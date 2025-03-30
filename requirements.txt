@@ -1,0 +1,8 @@
+torch
+numpy
+scipy
+matplotlib
+scikit-learn
+munkres
+Pillow
+pyyaml
