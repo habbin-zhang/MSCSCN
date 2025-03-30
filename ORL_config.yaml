@@ -1,0 +1,19 @@
+dataset:
+  numSubj:    40  # number of subjects
+  numPerSubj: 10  # images per subjects
+  dataPath:   "./Data/ORL_32x32.mat" #dataset
+
+model:
+  kernelSize: [3, 3, 3]
+  numHidden:  [5, 3, 3]
+  input_size: [32, 32]
+
+training:
+  seedFlag:   True
+  seedValue:  1
+  lambda:     1
+  gamma:      1
+  lr:         1.0e-3 # learning rate
+  cte:        1.0e-4 # convergence criteria  1e-4
+  post_proc:  [3, 1]
+  rankE:      2
