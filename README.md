@@ -10,4 +10,5 @@ matplotlib
 scikit-learn
 munkres
 Pillow
-pyyaml```
+pyyaml
+```
